@@ -1,12 +1,13 @@
-let num = 14;
-let count = 0;
-for(let i = 1 ; i<=num ; ++i){
-	if(num%i==0){
-		++count;
+let number = 11;
+
+let factors = 0;
+for(let i = 1 ; i<=number ; i++){
+	if(number%i==0){
+		factors++;
 	}
 }
-if(count===2){
-	console.log("Not a Prime Number");
+if(factors==2){
+	console.log("It is a Prime Number");
 }else{
-	console.log("It's a Prime Number");
+	console.log("It is not a Prime Number");
 }
